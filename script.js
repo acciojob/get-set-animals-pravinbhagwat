@@ -1,9 +1,28 @@
 //complete this code
-class Animal {}
+class Animal {
+	constructor(spacies) {
+		this.spacies = spacies;
+	}
 
-class Dog extends Animal {}
+	get spacies() {
+		return this.spacies;
+	}
+	makeSound() {
+		console.log(`${this.spacies}`)
+	}
+}
 
-class Cat extends Animal {}
+class Dog extends Animal {
+	bark() {
+		console.log("woof");
+	}
+}
+
+class Cat extends Animal {
+	purr() {
+		console.log("purr");
+	}
+}
 
 // Do not change the code below this line
 window.Animal = Animal;
