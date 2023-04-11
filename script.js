@@ -4,7 +4,7 @@ class Animal {
 		this.spacies = spacies;
 	}
 
-	set spacies() {
+	set spacies(spacies) {
 		this.spacies = spacies;
 	}
 
