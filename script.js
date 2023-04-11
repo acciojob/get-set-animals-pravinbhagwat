@@ -4,6 +4,10 @@ class Animal {
 		this.spacies = spacies;
 	}
 
+	set spacies() {
+		this.spacies = spacies;
+	}
+
 	get spacies() {
 		return this.spacies;
 	}
