@@ -1,19 +1,19 @@
 //complete this code
 class Animal {
-	constructor(spacies) {
-		this.spacies = spacies;
+	constructor(species) {
+		this.species = species;
 	}
 
-	set spacies(spacies) {
-		this.spacies = spacies;
+	set species(species) {
+		this.species = species;
 	}
 
-	get spacies() {
-		return this.spacies;
+	get species() {
+		return this.species;
 	}
 	
 	makeSound() {
-		console.log(`${this.spacies}`)
+		console.log(`The ${species} makes a sound`);
 	}
 }
 
