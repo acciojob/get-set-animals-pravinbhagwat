@@ -11,6 +11,7 @@ class Animal {
 	get spacies() {
 		return this.spacies;
 	}
+	
 	makeSound() {
 		console.log(`${this.spacies}`)
 	}
